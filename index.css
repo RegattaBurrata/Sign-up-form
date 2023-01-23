@@ -102,6 +102,12 @@ input {
     border: 1px solid rgba(91, 91, 91, 0.27);
     border-radius: 4px;
     margin-right: 80px;
+    
+}
+
+.input p {
+    margin: 0;
+    color: rgb(197, 31, 31);
 }
 
 input:focus {

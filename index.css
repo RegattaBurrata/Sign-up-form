@@ -50,21 +50,23 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 4rem;
+    background: rgba(207, 207, 207, 0.235);
 }
 
 .header-container {
-    flex: 2;
+    flex: 1;
     display: relative;
     font-size: 2rem;
     font-weight: 700;
-    background: rgba(207, 207, 207, 0.235);
-    padding: 4rem;
+    padding: 90px 20px 20px 30px;
 }
 
 .form-container {
     flex: 1;
-    padding: 4rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    background: white;
+    box-shadow: 2px 5px 5px rgba(128, 128, 128, 0.251);
 }
 
 .footer-container {
@@ -80,8 +82,44 @@ body {
 .form {
     display: flex;
     flex-flow: row wrap;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .input {
-    display: block;
+    display: flex;
+    flex-flow: column wrap;
+    width: 40%;
+    font-size: .75rem;
+    gap: 5px;
+}
+
+input {
+    height: 1.2rem;
+    padding: .5rem;
+    font-size: 1.2rem;
+    border: 1px solid rgba(91, 91, 91, 0.27);
+    border-radius: 4px;
+    margin-right: 80px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #665df5;
+    box-shadow: 0 0 2px #665df5;
+}
+
+button {
+    font-size: 1.2rem;
+    padding: .8rem 5rem;
+    border-radius: .4rem;
+    border: none;
+    background: rgba(211, 63, 189, 0.628);
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.footer-container a {
+    color: black;
 }
